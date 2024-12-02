@@ -1,0 +1,13 @@
+{
+  "name": "mcp-server-fetch",
+  "version": "1.0.0",
+  "description": "MCP server fetch installation",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @modelcontextprotocol/inspector uv run mcp-server-fetch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/inspector": "latest",
+    "mcp-server-fetch": "latest"
+  }
+}
